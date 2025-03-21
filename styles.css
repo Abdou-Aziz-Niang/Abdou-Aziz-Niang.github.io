@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=inter:ital,Iopsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:');
+
+body {
+    position: relative;
+    font-family: inter;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    object-fit: cover;
+}
+
+
+.banniere h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.banniere p {
+    margin: 0;
+    font-size: 3.2rem;
+    color: #740707;
+    background-color: #f8f8f8;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.1px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: block;
+    text-decoration: underline;
+}
+
+nav ul {
+    background-color: #740707;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li a:active {
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: #2600ff;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.projet img {
+    margin-top: 20px;
+}
+
+
+.mon-image img {
+    box-shadow: 5px 5px 15px;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+    border: 3px solid rgb(129, 12, 12);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.Video-presentation {
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid rgb(129, 12, 12);
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    left: 200px;
+    margin-top: 240px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.Video-presentation video {
+    max-width: 100%;
+    height: fit-content;
+    display: block;
+    object-fit: cover;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #740707;
+    color: #ffffff;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+
+
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #740707;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.project {
+    border: #740707 solid 1px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.project img {
+    height: 150px;
+}
+
+.project h4 {
+    color: #740707;
+    font-size: 1.5rem;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects p {
+    font-size: 1.5rem;
+}
+
+.projects p {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+.about h2 {
+    color: #740707;
+    text-align: center;
+    display: flex;
+}
+
+.about li {
+    font-size: 1.5rem;
+}
+
+.presentation p {
+    font-size: 2rem;
+}
+
+.presentation h2 {
+    text-align: center;
+    color: #740707;
+}
+
+
+.projects {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 10px;
+}
+
+
+form label :hover {
+    background-color: #740707;
+}
+
+input form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2.5px solid #740707;
+    border-radius: 10px;
+}
+
+form input :focus {
+    color: #740707;
+    border: 2.5px solid #740707;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #316dee;
+    color: rgb(207, 8, 8);
+}
+
+.mon-image Aziz {
+    text-align: center;
+}
